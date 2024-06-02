@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "puppeteer": "^22.10.0",
+    "yargs": "^17.7.2"
   }
 }
