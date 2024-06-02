@@ -109,6 +109,7 @@ async function selectYouTubeLivestreamEvent(page: Page, channel: string) {
       );
       settingsButton?.click();
       await page.locator("::-p-text(Edit Settings)").click();
+      await delay(1000);
       await page.locator("#downshift-0-toggle-button").click();
       await page.locator("#downshift-0-item-1").click();
       await page.locator("button ::-p-text(Save)").click();
