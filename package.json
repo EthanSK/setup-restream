@@ -7,7 +7,7 @@
     "run": "ts-node src/index.ts"
   },
   "author": "",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "ISC",
   "devDependencies": {
     "@types/yargs": "^17.0.32",
     "ts-node": "^10.9.2",
